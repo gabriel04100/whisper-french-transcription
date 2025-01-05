@@ -91,6 +91,7 @@ sounddevice==0.5.1
 soundfile==0.13.0
 soxr==0.5.0.post1
 streamlit==1.41.1
+streamlit-audiorecorder==0.0.6
 sympy==1.13.1
 tenacity==9.0.0
 threadpoolctl==3.5.0
