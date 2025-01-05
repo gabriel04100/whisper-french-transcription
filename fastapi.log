@@ -1,0 +1,38 @@
+2025-01-05 19:21:32,962 - DEBUG - Using selector: EpollSelector
+2025-01-05 19:21:32,985 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-01-05 19:21:33,400 - DEBUG - https://huggingface.co:443 "HEAD /bofenghuang/whisper-large-v3-french/resolve/main/config.json HTTP/1.1" 200 0
+2025-01-05 19:21:37,367 - DEBUG - https://huggingface.co:443 "HEAD /bofenghuang/whisper-large-v3-french/resolve/main/generation_config.json HTTP/1.1" 200 0
+2025-01-05 19:21:37,670 - DEBUG - https://huggingface.co:443 "HEAD /bofenghuang/whisper-large-v3-french/resolve/main/processor_config.json HTTP/1.1" 404 0
+2025-01-05 19:21:37,977 - DEBUG - https://huggingface.co:443 "HEAD /bofenghuang/whisper-large-v3-french/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+2025-01-05 19:21:38,288 - DEBUG - https://huggingface.co:443 "HEAD /bofenghuang/whisper-large-v3-french/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+2025-01-05 19:21:38,446 - DEBUG - https://huggingface.co:443 "HEAD /bofenghuang/whisper-large-v3-french/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+2025-01-05 19:21:38,599 - DEBUG - https://huggingface.co:443 "HEAD /bofenghuang/whisper-large-v3-french/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-01-05 19:21:38,895 - DEBUG - https://huggingface.co:443 "HEAD /bofenghuang/whisper-large-v3-french/resolve/main/processor_config.json HTTP/1.1" 404 0
+2025-01-05 19:21:39,040 - DEBUG - https://huggingface.co:443 "HEAD /bofenghuang/whisper-large-v3-french/resolve/main/chat_template.json HTTP/1.1" 404 0
+2025-01-05 19:21:39,203 - DEBUG - https://huggingface.co:443 "HEAD /bofenghuang/whisper-large-v3-french/resolve/main/chat_template.jinja HTTP/1.1" 404 0
+2025-01-05 19:25:54,035 - DEBUG - Calling on_part_begin with no data
+2025-01-05 19:25:54,035 - DEBUG - Calling on_header_field with data[61:80]
+2025-01-05 19:25:54,035 - DEBUG - Calling on_header_value with data[82:130]
+2025-01-05 19:25:54,035 - DEBUG - Calling on_header_end with no data
+2025-01-05 19:25:54,035 - DEBUG - Calling on_header_field with data[132:144]
+2025-01-05 19:25:54,035 - DEBUG - Calling on_header_value with data[146:155]
+2025-01-05 19:25:54,035 - DEBUG - Calling on_header_end with no data
+2025-01-05 19:25:54,035 - DEBUG - Calling on_headers_finished with no data
+2025-01-05 19:25:54,035 - DEBUG - Calling on_part_data with data[159:53559]
+2025-01-05 19:25:54,035 - DEBUG - Calling on_part_end with no data
+2025-01-05 19:25:54,036 - DEBUG - Calling on_end with no data
+2025-01-05 19:25:54,039 - DEBUG - Received file of size 53400 bytes
+2025-01-05 19:25:54,061 - ERROR - Error processing transcription: We expect a numpy ndarray as input, got `<class '_io.BytesIO'>`
+2025-01-05 19:25:57,742 - DEBUG - Calling on_part_begin with no data
+2025-01-05 19:25:57,742 - DEBUG - Calling on_header_field with data[60:79]
+2025-01-05 19:25:57,742 - DEBUG - Calling on_header_value with data[81:129]
+2025-01-05 19:25:57,742 - DEBUG - Calling on_header_end with no data
+2025-01-05 19:25:57,742 - DEBUG - Calling on_header_field with data[131:143]
+2025-01-05 19:25:57,742 - DEBUG - Calling on_header_value with data[145:154]
+2025-01-05 19:25:57,742 - DEBUG - Calling on_header_end with no data
+2025-01-05 19:25:57,742 - DEBUG - Calling on_headers_finished with no data
+2025-01-05 19:25:57,742 - DEBUG - Calling on_part_data with data[158:19184]
+2025-01-05 19:25:57,742 - DEBUG - Calling on_part_end with no data
+2025-01-05 19:25:57,742 - DEBUG - Calling on_end with no data
+2025-01-05 19:25:57,742 - DEBUG - Received file of size 19026 bytes
+2025-01-05 19:25:57,742 - ERROR - Error processing transcription: We expect a numpy ndarray as input, got `<class '_io.BytesIO'>`

@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "whisp"
+version = "0.1.0"
+description = ""
+authors = ["gabriel04100 <gabrielp@outlook.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.6"
+uvicorn = "^0.34.0"
+transformers = "^4.47.1"
+torch = "^2.5.1"
+pydub = "^0.25.1"
+scipy = "^1.15.0"
+accelerate = "^1.2.1"
+python-multipart = "^0.0.20"
+soundfile = "^0.13.0"
+numpy = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
